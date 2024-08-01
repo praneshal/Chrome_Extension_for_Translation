@@ -1,0 +1,14 @@
+{
+    "name":"UI",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "description": "translate UI",
+    "browser_action":{
+        "default_popup":"index.html"
+       
+    },
+    
+    "permissions":["activeTab"],
+    "host_permissions":["http://127.0.0.1:5000/*"]
+    
+}
